@@ -13,6 +13,8 @@ build_search_index = false
 
 theme = "wc_theme"
 
+title = "Pen Spinning World Cup 2022"
+
 
 [extra]
 # Put all your custom variables here
