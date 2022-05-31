@@ -64,6 +64,8 @@ header {
     flex-direction: column;
     align-items: center;
 
+    padding: 12px;
+
     .hero-image {
         width: 600px;
     }
@@ -97,16 +99,30 @@ header {
 }
 
 @media only screen and (max-width: 800px) {
-    .hero-image {
+    .hero .hero-image {
         width: 75%;
     }
 
     .content {
         width: 100%;
+        padding: 0 12px;
     }
 
-    .schedule {
-        padding: 0;
+    section .schedule-list {
+        width: 100%;
+
+        .date {
+            font-size: 14px;
+        }
+    }
+
+    section {
+        width: 100%;
+    }
+
+    #mode svg {
+        width: 20px;
+        height: 20px;
     }
 }
 
