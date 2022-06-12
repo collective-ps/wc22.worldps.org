@@ -123,6 +123,32 @@
                 </ol>
             </section>
             {% endif %}
+
+            {% if section.extra.teams %}
+            <section class="teams">
+                <h2>Teams & Participants</h2>
+                
+                <p>
+                    Here is the list of the teams currently participating in WC2022.
+                </p>
+
+                <ol class="team-list">
+                    {% for team in section.extra.teams %}
+                    <li class="team-item">
+                        <div class="team-name">{{ team.name }}</div>
+                        <div class="team-manager">Manager: {{ team.manager }}</div>
+                        <ol class="team-participants">
+                            {% for participant in team.participants %}
+                            <li class="participant-item">
+                                <span class="name">{{ participant.name }}</span>
+                            </li>
+                            {% endfor %}
+                        </ol>
+                    </li>
+                    {% endfor %}
+                </ol>
+            </section>
+            {% endif %}
         </div>
     </main>
 

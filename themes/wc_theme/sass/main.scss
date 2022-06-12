@@ -117,7 +117,8 @@ header {
         padding: 0 12px;
     }
 
-    section .schedule-list {
+    section .schedule-list,
+    section .team-list {
         width: 100%;
 
         .date {
@@ -226,10 +227,34 @@ hr {
     }
 }
 
+.team-list {
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .team-item {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        margin: 12px 0;
+    }
+
+    .team-name {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .team-manager {
+        font-style: italic;
+        padding: 12px 0;
+    }
+}
+
 ol {
     margin-block-start: 0;
     margin-block-end: 0;
     margin-inline-start: 0;
     margin-inline-end: 0;
     padding-inline-start: 0;
+    list-style: none;
 }
