@@ -140,7 +140,11 @@
                         <ol class="team-participants">
                             {% for participant in team.participants %}
                             <li class="participant-item">
+                                {% if participant.alternate %}
+                                <span class="name italic">({{ participant.name }})</span>
+                                {% else %}
                                 <span class="name">{{ participant.name }}</span>
+                                {% endif %}
                             </li>
                             {% endfor %}
                         </ol>

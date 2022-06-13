@@ -50,7 +50,7 @@ participants = [
 	{ name = "Nachii*" },
 	{ name = "Wei" },
 	{ name = "Ria" },
-	{ name = "Miuk" },
+	{ name = "Miuk", alternate = true },
 ]
 
 [[extra.teams]]
@@ -73,7 +73,7 @@ participants = [
 	{ name = "Vanilla" },
 	{ name = "ZeGentleman" },
 	{ name = "Krogan" },
-	{ name = "Saltient" },
+	{ name = "Saltient", alternate = true },
 ]
 
 [[extra.teams]]
@@ -107,7 +107,7 @@ participants = [
 	{ name = "BlackCow" },
 	{ name = "Sonic" },
 	{ name = "Cmpsr" },
-	{ name = "Seoraksan" },
+	{ name = "Seoraksan", alternate = true },
 ]
 
 [[extra.teams]]
@@ -119,7 +119,7 @@ participants = [
 	{ name = "coffeelucky" },
 	{ name = "Froog" },
 	{ name = "PHUM" },
-	{ name = "Sanyo" },
+	{ name = "Sanyo", alternate = true },
 ]
 
 [[extra.teams]]
@@ -142,7 +142,7 @@ participants = [
 	{ name = "Petuy" },
 	{ name = "Quantum" },
 	{ name = "Hilbert" },
-	{ name = "Karuna" },
+	{ name = "Karuna", alternate = true },
 ]
 
 [[extra.teams]]
@@ -154,7 +154,7 @@ participants = [
 	{ name = "Salmon_T" },
 	{ name = "Heavenly" },
 	{ name = "Yamaka" },
-	{ name = "Realer" },
+	{ name = "Realer", alternate = true },
 ]
 
 [[extra.teams]]
@@ -166,7 +166,7 @@ participants = [
 	{ name = "Reamtea" },
 	{ name = "KoVi" },
 	{ name = "Sututu" },
-	{ name = "Tetora" },
+	{ name = "Tetora", alternate = true },
 ]
 
 [[extra.teams]]
@@ -178,7 +178,7 @@ participants = [
 	{ name = "S-RoK" },
 	{ name = "Mamba" },
 	{ name = "Eshor" },
-	{ name = "Kara-T-J" },
+	{ name = "Kara-T-J", alternate = true },
 ]
 
 [[extra.teams]]
@@ -190,6 +190,6 @@ participants = [
 	{ name = "Sumure" },
 	{ name = "Chisko" },
 	{ name = "Kattho" },
-	{ name = "DarKko" },
+	{ name = "DarKko", alternate = true },
 ]
 +++
