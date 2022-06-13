@@ -58,11 +58,6 @@
                     The 7th biennial online competition where pen spinning teams gather to showcase their skills from around the world.
                 </p>
 
-                <div class="hero-cta">
-                    <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLScucD8P9oP2oechQhIL80gR2AgHOk7_3G0vE6IU72FEwwwMqA/viewform" target="_blank">Register your team</a>
-                    <p class="italic small p4">*teams are no longer scoped to specific communities!</p>
-                </div>
-
                 {% if section.extra.deadline %}
                 <section class="section section-sm countdown-section">
                     <div class="container">
@@ -123,6 +118,36 @@
                     <li class="schedule-item">
                         <span class="name">{{ item.name }}</span>
                         <div class="date">{{ item.date }}</div>
+                    </li>
+                    {% endfor %}
+                </ol>
+            </section>
+            {% endif %}
+
+            {% if section.extra.teams %}
+            <section class="teams">
+                <h2>Teams & Participants</h2>
+                
+                <p>
+                    Here is the list of the teams currently participating in WC2022.
+                </p>
+
+                <ol class="team-list">
+                    {% for team in section.extra.teams %}
+                    <li class="team-item">
+                        <div class="team-name">{{ team.name }}</div>
+                        <div class="team-manager">Manager: {{ team.manager }}</div>
+                        <ol class="team-participants">
+                            {% for participant in team.participants %}
+                            <li class="participant-item">
+                                {% if participant.alternate %}
+                                <span class="name italic">({{ participant.name }})</span>
+                                {% else %}
+                                <span class="name">{{ participant.name }}</span>
+                                {% endif %}
+                            </li>
+                            {% endfor %}
+                        </ol>
                     </li>
                     {% endfor %}
                 </ol>
