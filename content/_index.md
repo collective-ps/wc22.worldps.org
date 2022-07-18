@@ -1,9 +1,9 @@
 +++
 [extra.deadline]
-title = "Round 2 Submission Deadline"
+title = "Round 2 Results Announcement"
 year = "2022"
 month = "07"
-day = "16"
+day = "23"
 
 [[extra.schedule]]
 name = "Team Registration Deadline"
