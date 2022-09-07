@@ -1,10 +1,4 @@
 +++
-[extra.deadline]
-title = "R4 Final Video Deadline"
-year = "2022"
-month = "08"
-day = "27"
-
 [[extra.schedule]]
 name = "Team Registration Deadline"
 date = "June 11, 2022"
